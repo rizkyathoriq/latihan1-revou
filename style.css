@@ -7,6 +7,11 @@ label {
   font-size: 0.8rem;
 }
 
+.mainContent {
+  display: flex;
+  flex-direction: column;
+}
+
 /* navbar */
 .container {
   border: 4px solid #ffcc5c;
@@ -28,6 +33,12 @@ label {
   margin-right: auto;
 }
 
+.logoDua {
+  height: 578px;
+  width: 1366px;
+  align-items: center;
+}
+
 /* judul */
 header {
   padding: 0 60px;
@@ -42,7 +53,13 @@ header h1 {
   /* jarak antara h1 dan p */
 }
 
-.content {
+.contentOne {
+}
+
+.contentTwo {
+}
+
+.contentThree {
   /* flex-direction: row; */
   display: flex;
   margin-bottom: 50px;

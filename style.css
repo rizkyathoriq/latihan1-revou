@@ -7,63 +7,47 @@ label {
   font-size: 0.8rem;
 }
 
+.headerSet {
+  border: 2px solid black;
+}
 .mainContent {
   display: flex;
   flex-direction: column;
 }
 
-/* navbar */
-.container {
-  border: 4px solid #ffcc5c;
-  display: flex;
-  justify-content: flex-end;
-  padding: 0 5px;
-}
-
-.container > div {
-  padding: 10px;
-  text-align: center;
-  font-size: 14sp;
-  color: #ffeead;
-  border: 2px solid;
-  background-color: green;
-}
-
-.logo {
-  margin-right: auto;
-}
-
-.logoDua {
-  height: 578px;
-  width: 1366px;
-  align-items: center;
-}
-
-/* judul */
-header {
-  padding: 0 60px;
-  /* jarak kiri kanan */
-  margin-bottom: 30px;
-}
-
-header h1 {
-  margin: 3rem 0 0 0;
-  /* jarak bagian atas */
-  line-height: 1rem;
-  /* jarak antara h1 dan p */
+.btn-navbar {
+  margin: 5px;
+  padding: 8px;
+  outline: 2px black;
 }
 
 .contentOne {
+  background-color: white;
+  margin-top: 50px;
+}
+
+.welcoming {
+  margin-left: 100px;
 }
 
 .contentTwo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contentTwo > .city {
+  height: 100%;
+  width: 200px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .contentThree {
-  /* flex-direction: row; */
   display: flex;
   margin-bottom: 50px;
-  /* jarak ke footer */
   align-content: center;
   justify-content: space-around;
 }
@@ -72,19 +56,19 @@ footer > p {
   text-align: end;
 }
 
-/* styling table */
-.tabel,
-th,
-td {
-  border: 1px solid rgb(182, 182, 182);
+.tabel {
+  border: 3px solid black;
   border-collapse: collapse;
-  text-align: center;
   padding: 10px;
   font-size: 0.8rem;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 30%;
 }
 
-th {
-  background-color: lightgrey;
+.tabel > .div {
+  flex: 1;
 }
 
 .input-group {
@@ -103,7 +87,7 @@ th {
   /* lebar kolom textbox */
 }
 
-input[type="button"] {
+input[type="submit"] {
   width: 155%;
   /* panjang button submit */
 }
